@@ -1,9 +1,16 @@
-import {
+// import {
+//   listContacts,
+//   getContactById,
+//   removeContact,
+//   addContact,
+// } from "./contacts.js";
+
+const {
   listContacts,
   getContactById,
   removeContact,
   addContact,
-} from "./contacts.js";
+} = require("./contacts.js");
 // const argv = require("yargs").argv;
 
 // listContacts().then(console.log);
